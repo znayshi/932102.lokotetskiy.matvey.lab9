@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculate {
+    gap: 10px; 
+    max-width: 300px;
+    min-height: 300px;
+    border: 5px solid #6dacd5;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculateInput {
+    height: 45px;
+}
+
+.calculateInput input {
+    text-align: right;
+    font-size: x-large;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.buttons {
+    flex: 1 1 auto;
+    display: grid;
+    gap: 5px;
+}
+
+.calculateButton {
+    font-size: large;
+}
+
+#firstBias {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+#secondBias {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
